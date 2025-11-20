@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zidi Abderrahmen - Portfolio</title>
+</head>
+<body>
+    <div class="grain"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">MYPORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Zidi Abderrahmen</h1>
+            <p class="hero-subtitle">DEVELOPER & DESIGNER</p>
+            <p class="hero-description">Crafting exceptional digital experiences through innovative design and cutting-edge technology. Transforming ideas into reality.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                <a href="#projects" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <div class="container">
+        <section id="skills" class="section">
+            <h2 class="section-title">Expertise</h2>
+            <div class="bento-grid">
+                <div class="bento-card">
+                    <span class="card-icon">⚡</span>
+                    <h3 class="card-title">Frontend Development</h3>
+                    <p class="card-description">TypeScript, Tailwind CSS, Modern JavaScript</p>
+                </div>
+                <div class="bento-card">
+                    <span class="card-icon">🎨</span>
+                    <h3 class="card-title">UI/UX Design</h3>
+                    <p class="card-description">Figma, Design Systems, User Research</p>
+                </div>
+                <div class="bento-card">
+                    <span class="card-icon">🚀</span>
+                    <h3 class="card-title">Backend & APIs</h3>
+                    <p class="card-description">Python, REST APIs, GraphQL, Database Design</p>
+                </div>
+                <div class="bento-card">
+                    <span class="card-icon">📱</span>
+                    <h3 class="card-title">Responsive Design</h3>
+                    <p class="card-description">Mobile-First Approach, Cross-Platform, Performance Optimization</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Start Android Developping</h3>
+                            <p class="experience-company">-</p>
+                        </div>
+                        <span class="experience-date">2019 - Present</span>
+                    </div>
+                    <p class="experience-description">Leading development of scalable web applications, architecting modern frontend solutions, and mentoring development teams. Implemented design systems that improved development efficiency by 40%.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Web Developer</h3>
+                            <p class="experience-company">Owliance Tunisie</p>
+                        </div>
+                        <span class="experience-date">Jan 2025 - Feb 2025</span>
+                    </div>
+                    <p class="experience-description">Leading development of scalable web applications, architecting modern frontend solutions, and mentoring development teams. Implemented design systems that improved development efficiency by 40%.</p>
+                </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🌐</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A responsive personal site to showcase projects and demonstrate front-end development skills.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🎮</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tic Tac Toe Game</h3>
+                        <p class="project-description">A two-player Tic Tac Toe game using Kotlin and XML for Android platforms, designed an intuitive user interface to enhance player experience.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📜</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Stories App</h3>
+                        <p class="project-description">Mobile application that helps users store and manage personal stories on a single page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdkbpprq" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Zidi Abderrahmen. Crafted with passion.</p>
+            <div class="social-links">
+                <a target="_blank" href="https://www.linkedin.com/in/zidi-abderrahmen" class="social-link" title="LinkedIn">💼</a>
+                <a target="_blank" href="https://github.com/zidi-abderrahmen" class="social-link" title="GitHub">🐙</a>
+                <a target="_blank" href="mailto:zd.abderrahmen@gmail.com" class="social-link" title="Email">📧</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
